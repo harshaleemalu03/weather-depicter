@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
+# 🌦️ Weather & Air Quality Web App
 
-## Project info
+A modern, user-friendly weather web application built using **Lovable Dev**, designed to provide real-time environmental insights with a strong focus on **clean UI/UX and usability**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This project allows users to quickly check current weather conditions and air quality for any city, helping them make informed daily decisions.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- 🔍 **City-based Search**  
+  Users can enter any city name to fetch live weather data.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- 🌡️ **Temperature**  
+  Displays the current temperature in Celsius.
 
-Changes made via Lovable will be committed automatically to this repo.
+- 💧 **Humidity**  
+  Shows the real-time humidity percentage.
 
-**Use your preferred IDE**
+- 🌫️ **Air Quality Index (AQI)**  
+  Presents AQI values along with clear qualitative labels:
+  - Good  
+  - Moderate  
+  - Poor  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 🎨 **Dynamic Visual Indicators**  
+  - AQI-based color coding for quick understanding  
+  - Weather-responsive background for enhanced user experience
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- ⏳ **Smooth Loading State**  
+  Displays a loader while data is being fetched to improve UX.
 
-Follow these steps:
+- ⚠️ **Error Handling**  
+  Graceful messages for invalid city names or unavailable data.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧠 Design & UX Philosophy
 
-# Step 3: Install the necessary dependencies.
-npm i
+The application is designed with a **minimalistic and intuitive interface**, ensuring:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- Clean card-based layout
+- Readable typography and strong contrast
+- Responsive design across mobile, tablet, and desktop
+- Visual cues (icons, colors, animations) to improve clarity and engagement
 
-**Edit a file directly in GitHub**
+The goal was to build something that feels like a **real product**, not just an assignment.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🛠️ Tech Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Lovable Dev** – Application development
+- **Weather & AQI API** – Real-time environmental data
+- **HTML, CSS, JavaScript** – Frontend structure and logic
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📌 How It Works
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Enter a city name in the input field.
+2. Click the search button or press Enter.
+3. The app fetches live weather and air quality data.
+4. Results are displayed in a visually organized card layout.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🌍 Why AQI Matters
 
-## Can I connect a custom domain to my Lovable project?
+Air Quality Index plays a crucial role in daily health decisions.  
+By integrating AQI alongside temperature and humidity, this app encourages users to be more aware of their environmental conditions, especially in urban areas.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## ✨ Future Enhancements
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Auto-detect user location
+- Hourly and weekly weather forecast
+- Weather alerts and health recommendations
+- Dark mode toggle
+
+---
+
+## 📄 Conclusion
+
+This project demonstrates the practical use of APIs, frontend development principles, and UI/UX design thinking.  
+It reflects an effort to go beyond basic functionality and focus on **clarity, accessibility, and real-world relevance**.
+
+---
+
+*Developed as part of an internship assignment at **Mirai School of Technology***  
