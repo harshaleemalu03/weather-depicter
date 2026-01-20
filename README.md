@@ -1,6 +1,6 @@
 # 🌦️ Weather & Air Quality Web App
 
-A modern, user-friendly weather web application built using **Lovable Dev**, designed to provide real-time environmental insights with a strong focus on **clean UI/UX and usability**.
+A modern, user-friendly weather web application built using **Lovable Dev**, designed to provide real-time environmental insights.
 
 This project allows users to quickly check current weather conditions and air quality for any city, helping them make informed daily decisions.
 
@@ -43,8 +43,6 @@ The application is designed with a **minimalistic and intuitive interface**, ens
 - Readable typography and strong contrast
 - Responsive design across mobile, tablet, and desktop
 - Visual cues (icons, colors, animations) to improve clarity and engagement
-
-The goal was to build something that feels like a **real product**, not just an assignment.
 
 ---
 
