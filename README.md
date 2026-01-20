@@ -4,6 +4,8 @@ A modern, user-friendly weather web application built using **Lovable Dev**, des
 
 This project allows users to quickly check current weather conditions and air quality for any city, helping them make informed daily decisions.
 
+**View here**: https://github.com/harshaleemalu03/weather-depicter
+
 ---
 
 ## 🚀 Features
